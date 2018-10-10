@@ -1,0 +1,103 @@
+Which browser do you want to use ? 
+Starting ChromeDriver 2.41.578700 (2f1ed5f9343c13f73144538f15c00b370eda6706) on port 13140
+Only local connections are allowed.
+Oct 10, 2018 11:09:32 AM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: OSS
+Total Links Found: 78
+URL: https://www.iquantile.com/home -> returned OK
+URL: https://www.iquantile.com/index.php#servicez -> returned OK
+URL: https://www.iquantile.com/index.php#portfolioz -> returned OK
+URL: https://www.iquantile.com/index.php#aboutz -> returned OK
+URL: https://www.iquantile.com/career -> returned OK
+URL: https://www.iquantile.com/index.php#contactz -> returned OK
+URL: https://www.iquantile.com/#0 -> returned OK
+At See a demo Exception occured -&gt; sun.net.www.protocol.http.HttpURLConnection cannot be cast to javax.net.ssl.HttpsURLConnection
+At See a demo Exception occured -&gt; sun.net.www.protocol.http.HttpURLConnection cannot be cast to javax.net.ssl.HttpsURLConnection
+At See a demo Exception occured -&gt; sun.net.www.protocol.http.HttpURLConnection cannot be cast to javax.net.ssl.HttpsURLConnection
+At See a demo Exception occured -&gt; sun.net.www.protocol.http.HttpURLConnection cannot be cast to javax.net.ssl.HttpsURLConnection
+At See a demo Exception occured -&gt; sun.net.www.protocol.http.HttpURLConnection cannot be cast to javax.net.ssl.HttpsURLConnection
+At See a demo Exception occured -&gt; sun.net.www.protocol.http.HttpURLConnection cannot be cast to javax.net.ssl.HttpsURLConnection
+At See a demo Exception occured -&gt; sun.net.www.protocol.http.HttpURLConnection cannot be cast to javax.net.ssl.HttpsURLConnection
+At See a demo Exception occured -&gt; sun.net.www.protocol.http.HttpURLConnection cannot be cast to javax.net.ssl.HttpsURLConnection
+At See a demo Exception occured -&gt; sun.net.www.protocol.http.HttpURLConnection cannot be cast to javax.net.ssl.HttpsURLConnection
+At See a demo Exception occured -&gt; sun.net.www.protocol.http.HttpURLConnection cannot be cast to javax.net.ssl.HttpsURLConnection
+At See a demo Exception occured -&gt; sun.net.www.protocol.http.HttpURLConnection cannot be cast to javax.net.ssl.HttpsURLConnection
+At See a demo Exception occured -&gt; sun.net.www.protocol.http.HttpURLConnection cannot be cast to javax.net.ssl.HttpsURLConnection
+At See a demo Exception occured -&gt; sun.net.www.protocol.http.HttpURLConnection cannot be cast to javax.net.ssl.HttpsURLConnection
+At See a demo Exception occured -&gt; sun.net.www.protocol.http.HttpURLConnection cannot be cast to javax.net.ssl.HttpsURLConnection
+URL: https://www.iquantile.com/career -> returned OK
+URL: https://www.iquantile.com/page.php?id=84 -> returned OK
+URL: https://www.iquantile.com/page.php?id=105 -> returned OK
+URL: https://www.iquantile.com/page.php?id=81 -> returned OK
+URL: https://www.iquantile.com/page.php?id=114 -> returned OK
+URL: https://www.iquantile.com/page.php?id=117 -> returned OK
+URL: https://www.iquantile.com/page.php?id=4 -> returned OK
+URL: https://www.iquantile.com/page.php?id=89 -> returned OK
+URL: https://www.iquantile.com/page.php?id=121 -> returned OK
+URL: https://www.iquantile.com/page.php?id=37 -> returned OK
+URL: https://www.iquantile.com/page.php?id=113 -> returned OK
+URL: https://www.iquantile.com/page.php?id=80 -> returned OK
+URL: https://www.iquantile.com/page.php?id=120 -> returned OK
+URL: https://www.iquantile.com/page.php?id=42 -> returned OK
+URL: https://www.iquantile.com/page.php?id=118 -> returned OK
+URL: https://www.iquantile.com/page.php?id=116 -> returned OK
+URL: https://www.iquantile.com/page.php?id=115 -> returned OK
+URL: https://www.iquantile.com/page.php?id=100 -> returned OK
+URL: https://www.iquantile.com/page.php?id=33 -> returned OK
+URL: https://www.iquantile.com/page.php?id=54 -> returned OK
+URL: https://www.iquantile.com/page.php?id=94 -> returned OK
+URL: https://www.iquantile.com/page.php?id=79 -> returned OK
+URL: https://www.iquantile.com/page.php?id=71 -> returned OK
+URL: https://www.iquantile.com/page.php?id=103 -> returned OK
+URL: https://www.iquantile.com/page.php?id=16 -> returned OK
+URL: https://www.iquantile.com/page.php?id=104 -> returned OK
+URL: https://www.iquantile.com/page.php?id=1 -> returned OK
+URL: https://www.iquantile.com/page.php?id=102 -> returned OK
+URL: https://www.iquantile.com/page.php?id=101 -> returned OK
+URL: https://www.iquantile.com/page.php?id=30 -> returned OK
+URL: https://www.iquantile.com/page.php?id=78 -> returned OK
+URL: https://www.iquantile.com/page.php?id=14 -> returned OK
+URL: https://www.iquantile.com/page.php?id=83 -> returned OK
+URL: https://www.iquantile.com/page.php?id=40 -> returned OK
+URL: https://www.iquantile.com/page.php?id=106 -> returned OK
+URL: https://www.iquantile.com/page.php?id=85 -> returned OK
+URL: https://www.iquantile.com/page.php?id=107 -> returned OK
+URL: https://www.iquantile.com/page.php?id=97 -> returned OK
+URL: https://www.iquantile.com/page.php?id=111 -> returned OK
+URL: https://www.iquantile.com/page.php?id=68 -> returned OK
+URL: https://www.iquantile.com/page.php?id=92 -> returned OK
+URL: https://www.iquantile.com/page.php?id=98 -> returned OK
+URL: https://www.iquantile.com/page.php?id=119 -> returned OK
+URL: https://www.iquantile.com/page.php?id=13 -> returned OK
+URL: https://www.iquantile.com/page.php?id=75 -> returned OK
+URL: https://www.iquantile.com/page.php?id=77 -> returned OK
+URL: https://www.iquantile.com/page.php?id=109 -> returned OK
+URL: https://www.iquantile.com/privacy -> returned OK
+URL: https://www.iquantile.com/terms -> returned OK
+At <strong>support@iquantile.com</strong> Exception occured -&gt; sun.net.www.protocol.mailto.MailToURLConnection cannot be cast to javax.net.ssl.HttpsURLConnection
+URL: https://www.linkedin.com/company/iquantile -> returned Request denied
+URL: https://twitter.com/iquantile -> returned OK
+URL: https://www.facebook.com/iQuantile/ -> returned OK
+URL: https://www.iquantile.com/privacy -> returned OK
+URL: https://www.iquantile.com/terms -> returned OK
+URL: https://www.iquantile.com/privacy -> returned OK
+URL: https://www.iquantile.com/terms -> returned OK
+Home Page URL: https://www.iquantile.com/home
+Home Page is verified !
+Services Page URL: https://www.iquantile.com/index.php#servicez
+Service Page is verified !
+Portfolio Page URL: https://www.iquantile.com/index.php#portfolioz
+Portfolio Page is verified !
+About Page URL: https://www.iquantile.com/index.php#aboutz
+About Page is verified !
+Contact Page URL: https://www.iquantile.com/index.php#contactz
+Contact Page is verified !
+Mandatory field(s) error message: 
+PLEASE FILL OUT THIS FIELD.
+PLEASE FILL OUT THIS FIELD.
+PLEASE FILL OUT THIS FIELD.
+Submit button error message: 
+ONE/MANY FIELD(S) ARE EMPTY OR INVALID!
+Career Page URL: https://www.iquantile.com/career
+Career page verified !
+chrome is Closing....
