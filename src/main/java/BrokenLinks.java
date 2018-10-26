@@ -3,7 +3,6 @@ import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 
 import javax.net.ssl.HttpsURLConnection;
-
 import java.net.URL;
 import java.util.ArrayList;
 import java.util.List;
@@ -16,7 +15,7 @@ class BrokenLinks {
         BrokenLinks.driver = driver;
     }
 
-    List findAllLinks () {
+    List findAllLinks () throws InterruptedException {
         /*
          * go to iquantile
          */
@@ -37,7 +36,6 @@ class BrokenLinks {
             }
         }
         return finalList;
-
     }
 
     /*
@@ -60,7 +58,7 @@ class BrokenLinks {
     /*
      * find all the broken links with execption messages
      */
-    void checkLinks () {
+    void checkLinks () throws InterruptedException {
         List<WebElement> allImages = findAllLinks ();
         System.out.println ("Total Links Found: " + allImages.size ());
         for (WebElement element : allImages) {
@@ -74,4 +72,5 @@ class BrokenLinks {
             }
         }
     }
+
 }

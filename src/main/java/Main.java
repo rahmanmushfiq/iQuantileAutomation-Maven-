@@ -25,7 +25,7 @@ public class Main {
     private static final String LINUXCHROMEDRIVERPATH = projectPath + "/drivers/chromedriver/chromedriver";
     private static final String LINUXGECKODRIVERPATH = projectPath + "/drivers/firefoxdriver/geckodriver";
 
-    public static void main (String[] args) {
+    public static void main (String[] args) throws InterruptedException {
 
         while (true) {
             setBrowser ();

@@ -1,7 +1,7 @@
 Which browser do you want to use ? 
-Starting ChromeDriver 2.41.578700 (2f1ed5f9343c13f73144538f15c00b370eda6706) on port 13140
+Starting ChromeDriver 2.41.578700 (2f1ed5f9343c13f73144538f15c00b370eda6706) on port 6901
 Only local connections are allowed.
-Oct 10, 2018 11:09:32 AM org.openqa.selenium.remote.ProtocolHandshake createSession
+Oct 12, 2018 11:57:59 AM org.openqa.selenium.remote.ProtocolHandshake createSession
 INFO: Detected dialect: OSS
 Total Links Found: 78
 URL: https://www.iquantile.com/home -> returned OK

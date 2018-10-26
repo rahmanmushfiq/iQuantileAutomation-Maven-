@@ -1,0 +1,11 @@
+
+­%squid:RedundantThrowsDeclarationCheck"wRemove the declaration of thrown exception 'java.lang.InterruptedException', as it cannot be thrown from method's body.(Ÿÿ…ÿýÿÿÿÿ
+?squid:S3010"#Remove this assignment of "driver".(Ý·÷šøÿÿÿÿ
+O
+squid:S106?"9Replace this use of System.out or System.err by a logger.(Éüïö
+T
+squid:S106B"9Replace this use of System.out or System.err by a logger.(ÈâŸùøÿÿÿÿ
+O
+squid:S106F"9Replace this use of System.out or System.err by a logger.(ÆÀûý
+1squid:S1220""Move this file to a named package.
+csquid:S00112,"FDefine and throw a dedicated exception instead of using a generic one.(Ý‡…½ùÿÿÿÿ
