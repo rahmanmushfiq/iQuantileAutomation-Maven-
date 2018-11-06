@@ -1,20 +1,20 @@
 
-osquid:S1192:"XDefine a constant instead of duplicating this literal "webdriver.chrome.driver" 4 times.(çŽÜÀ
-dsquid:S1192G"HDefine a constant instead of duplicating this literal "Firefox" 3 times.(¾¹¦”úÿÿÿÿ
-vsquid:S3008"ZRename this field "OperatingSystem" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Šüž¦þÿÿÿÿ
 Gsquid:S1068"+Remove this unused "baseUrl" private field.(À¥ö†øÿÿÿÿ
+osquid:S1192:"XDefine a constant instead of duplicating this literal "webdriver.chrome.driver" 4 times.(çŽÜÀ
+O
+squid:S106N"9Replace this use of System.out or System.err by a logger.(¬¹È‹
+1squid:S1220""Move this file to a named package.
+O
+squid:S106c"9Replace this use of System.out or System.err by a logger.(¬¹È‹
 T
-squid:S1062"9Replace this use of System.out or System.err by a logger.(€†ç¡ùÿÿÿÿ
+squid:S106o"9Replace this use of System.out or System.err by a logger.(ÌÄ¼Úüÿÿÿÿ
+vsquid:S3008"ZRename this field "OperatingSystem" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Šüž¦þÿÿÿÿ
+T
+squid:S106b"9Replace this use of System.out or System.err by a logger.(ŒÛ¤âÿÿÿÿÿ
+dsquid:S1192G"HDefine a constant instead of duplicating this literal "Firefox" 3 times.(¾¹¦”úÿÿÿÿ
 T
 squid:S106M"9Replace this use of System.out or System.err by a logger.(ŒÛ¤âÿÿÿÿÿ
 O
-squid:S106N"9Replace this use of System.out or System.err by a logger.(¬¹È‹
-T
-squid:S106b"9Replace this use of System.out or System.err by a logger.(ŒÛ¤âÿÿÿÿÿ
-O
-squid:S106c"9Replace this use of System.out or System.err by a logger.(¬¹È‹
-O
 squid:S106f"9Replace this use of System.out or System.err by a logger.(«ˆ˜Ü
 T
-squid:S106o"9Replace this use of System.out or System.err by a logger.(ÌÄ¼Úüÿÿÿÿ
-1squid:S1220""Move this file to a named package.
+squid:S1062"9Replace this use of System.out or System.err by a logger.(€†ç¡ùÿÿÿÿ
