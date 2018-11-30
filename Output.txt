@@ -1,7 +1,7 @@
 Which browser do you want to use ? 
-Starting ChromeDriver 2.41.578700 (2f1ed5f9343c13f73144538f15c00b370eda6706) on port 6901
+Starting ChromeDriver 2.41.578700 (2f1ed5f9343c13f73144538f15c00b370eda6706) on port 24538
 Only local connections are allowed.
-Oct 12, 2018 11:57:59 AM org.openqa.selenium.remote.ProtocolHandshake createSession
+Nov 30, 2018 12:54:06 PM org.openqa.selenium.remote.ProtocolHandshake createSession
 INFO: Detected dialect: OSS
 Total Links Found: 78
 URL: https://www.iquantile.com/home -> returned OK
@@ -26,19 +26,19 @@ At See a demo Exception occured -&gt; sun.net.www.protocol.http.HttpURLConnectio
 At See a demo Exception occured -&gt; sun.net.www.protocol.http.HttpURLConnection cannot be cast to javax.net.ssl.HttpsURLConnection
 At See a demo Exception occured -&gt; sun.net.www.protocol.http.HttpURLConnection cannot be cast to javax.net.ssl.HttpsURLConnection
 URL: https://www.iquantile.com/career -> returned OK
+URL: https://www.iquantile.com/page.php?id=123 -> returned OK
 URL: https://www.iquantile.com/page.php?id=84 -> returned OK
 URL: https://www.iquantile.com/page.php?id=105 -> returned OK
 URL: https://www.iquantile.com/page.php?id=81 -> returned OK
 URL: https://www.iquantile.com/page.php?id=114 -> returned OK
+URL: https://www.iquantile.com/page.php?id=126 -> returned OK
 URL: https://www.iquantile.com/page.php?id=117 -> returned OK
+URL: https://www.iquantile.com/page.php?id=124 -> returned OK
 URL: https://www.iquantile.com/page.php?id=4 -> returned OK
-URL: https://www.iquantile.com/page.php?id=89 -> returned OK
 URL: https://www.iquantile.com/page.php?id=121 -> returned OK
 URL: https://www.iquantile.com/page.php?id=37 -> returned OK
 URL: https://www.iquantile.com/page.php?id=113 -> returned OK
-URL: https://www.iquantile.com/page.php?id=80 -> returned OK
 URL: https://www.iquantile.com/page.php?id=120 -> returned OK
-URL: https://www.iquantile.com/page.php?id=42 -> returned OK
 URL: https://www.iquantile.com/page.php?id=118 -> returned OK
 URL: https://www.iquantile.com/page.php?id=116 -> returned OK
 URL: https://www.iquantile.com/page.php?id=115 -> returned OK
@@ -47,7 +47,6 @@ URL: https://www.iquantile.com/page.php?id=33 -> returned OK
 URL: https://www.iquantile.com/page.php?id=54 -> returned OK
 URL: https://www.iquantile.com/page.php?id=94 -> returned OK
 URL: https://www.iquantile.com/page.php?id=79 -> returned OK
-URL: https://www.iquantile.com/page.php?id=71 -> returned OK
 URL: https://www.iquantile.com/page.php?id=103 -> returned OK
 URL: https://www.iquantile.com/page.php?id=16 -> returned OK
 URL: https://www.iquantile.com/page.php?id=104 -> returned OK
@@ -57,9 +56,9 @@ URL: https://www.iquantile.com/page.php?id=101 -> returned OK
 URL: https://www.iquantile.com/page.php?id=30 -> returned OK
 URL: https://www.iquantile.com/page.php?id=78 -> returned OK
 URL: https://www.iquantile.com/page.php?id=14 -> returned OK
+URL: https://www.iquantile.com/page.php?id=125 -> returned OK
 URL: https://www.iquantile.com/page.php?id=83 -> returned OK
 URL: https://www.iquantile.com/page.php?id=40 -> returned OK
-URL: https://www.iquantile.com/page.php?id=106 -> returned OK
 URL: https://www.iquantile.com/page.php?id=85 -> returned OK
 URL: https://www.iquantile.com/page.php?id=107 -> returned OK
 URL: https://www.iquantile.com/page.php?id=97 -> returned OK
@@ -71,6 +70,7 @@ URL: https://www.iquantile.com/page.php?id=119 -> returned OK
 URL: https://www.iquantile.com/page.php?id=13 -> returned OK
 URL: https://www.iquantile.com/page.php?id=75 -> returned OK
 URL: https://www.iquantile.com/page.php?id=77 -> returned OK
+URL: https://www.iquantile.com/page.php?id=127 -> returned OK
 URL: https://www.iquantile.com/page.php?id=109 -> returned OK
 URL: https://www.iquantile.com/privacy -> returned OK
 URL: https://www.iquantile.com/terms -> returned OK
@@ -100,4 +100,9 @@ Submit button error message:
 ONE/MANY FIELD(S) ARE EMPTY OR INVALID!
 Career Page URL: https://www.iquantile.com/career
 Career page verified !
-chrome is Closing....
+Extracted Email Addresses: 
+info@iquantile.com
+support@iquantile.com
+support@iquantile.com
+support@iquantile.com
+headless is Closing....

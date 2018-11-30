@@ -11,7 +11,7 @@ public class iQuantilePortfolio {
 
     public void navigateToPortfolio () {
         String expectedPortfoliosUrl = "https://www.iquantile.com/index.php#portfolioz";
-        WebElement element = driver.findElement (By.linkText ("WHAT WE BUILT"));
+        WebElement element = driver.findElement (By.xpath ("/html/body/header/nav/ul/li[2]/a"));
         String actualPortfolioUrl = element.getAttribute ("href");
         System.out.println ("Portfolio Page URL: " + actualPortfolioUrl);
         driver.get (actualPortfolioUrl);

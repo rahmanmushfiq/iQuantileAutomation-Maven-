@@ -20,7 +20,8 @@ public class iQuantileContact {
          * go to contact page and submit without filling the form
          */
         String expectedContactUrl = "https://www.iquantile.com/index.php#contactz";
-        WebElement element = driver.findElement (By.linkText ("CONTACT"));
+//        WebElement element = driver.findElement (By.linkText ("CONTACT"));
+        WebElement element = driver.findElement (By.xpath ("/html/body/header/nav/ul/li[5]/a"));
         System.out.print ("Contact Page URL: ");
         String actualContactUrl = element.getAttribute ("href");
         System.out.println (actualContactUrl);

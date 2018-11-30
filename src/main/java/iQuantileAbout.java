@@ -11,7 +11,7 @@ public class iQuantileAbout {
 
     public void navigateToAbout () {
         String expectedAboutsUrl = "https://www.iquantile.com/index.php#aboutz";
-        WebElement element = driver.findElement (By.linkText ("WHO WE ARE"));
+        WebElement element = driver.findElement (By.xpath ("/html/body/header/nav/ul/li[3]/a"));
         String actualAboutUrl = element.getAttribute ("href");
         System.out.println ("About Page URL: " + actualAboutUrl);
         driver.get (actualAboutUrl);

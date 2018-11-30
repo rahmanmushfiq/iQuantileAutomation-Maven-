@@ -1,10 +1,13 @@
 import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.WebElement;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.chrome.ChromeOptions;
 import org.openqa.selenium.edge.EdgeDriver;
 import org.openqa.selenium.firefox.FirefoxDriver;
 
 import java.util.Scanner;
+import java.util.regex.Matcher;
+import java.util.regex.Pattern;
 
 public class Main {
     private static WebDriver driver;
@@ -42,6 +45,7 @@ public class Main {
         new iQuantileAbout (driver).navigateToAbout ();
         new iQuantileContact (driver).navigateToContactPage ();
         new iQuantileCareer (driver).navigateToCareerPage ();
+        extractEmail ();
         tearDown ();
     }
 
@@ -101,6 +105,19 @@ public class Main {
         }
         System.out.println ("You have entered an invalid browser name !");
         return false;
+    }
+
+    /*
+    Extract all email addresses from the page
+     */
+    public static void extractEmail () {
+        driver.get ("https://www.iquantile.com/home");
+        String sourceCode = driver.getPageSource ();
+        System.out.println ("Extracted Email Addresses: ");
+        Matcher m = Pattern.compile ("[a-zA-Z0-9_.+-]+@[a-zA-Z0-9-]+\\.[a-zA-Z0-9-.]+").matcher (sourceCode);
+        while (m.find ()) {
+            System.out.println (m.group ());
+        }
     }
 
     /*

@@ -15,7 +15,8 @@ public class iQuantileCareer {
           go to career page
          */
         String expectedCareerUrl = "https://www.iquantile.com/career";
-        WebElement element = driver.findElement (By.linkText ("WORK WITH US"));
+//        WebElement element = driver.findElement (By.linkText ("WORK WITH US"));
+        WebElement element = driver.findElement (By.xpath ("/html/body/header/nav/ul/li[4]/a"));
         System.out.print ("Career Page URL: ");
         String actualCareerUrl = element.getAttribute ("href");
         System.out.println (actualCareerUrl);
